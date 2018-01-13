@@ -16,7 +16,8 @@ namespace _CST356_PatrickMiki_Lab1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The About Page";
+            ViewBag.Message += ", yet another message for ViewBag.";
 
             return View();
         }
