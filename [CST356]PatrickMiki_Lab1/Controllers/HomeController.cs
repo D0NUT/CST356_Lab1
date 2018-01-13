@@ -10,6 +10,7 @@ namespace _CST356_PatrickMiki_Lab1.Controllers
     {
         public ActionResult Index()
         {
+            //TestComment
             return View();
         }
 
